@@ -16,9 +16,7 @@
                 <version>3.7.0</version>
                 <configuration>
                     <compilerArgs>
-                        <arg>--add-modules=jdk.incubator.httpclient</arg>
-                        <!--<arg>-verbose</arg>-->
-                        <!--<arg>-Xlint:all,-options,-path</arg>-->
+                        <arg>--add-modules=jdk.incubator.httpclient,java.desktop</arg>
                     </compilerArgs>
                     <source>9</source>
                     <target>9</target>
